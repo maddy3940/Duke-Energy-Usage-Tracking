@@ -1,0 +1,21 @@
+<!doctype html>
+    <head>
+        <style>
+h1 {
+  color: black;
+  font-family: verdana;
+  font-size: 250%;
+}
+</style>
+        <title>Result</title>
+    </head>
+  <table border = 1>
+
+    {% for key, value in result.items() %}
+
+    <h1>
+       {{ value }}
+    </h1>
+    {% endfor %}
+    
+ </table>
